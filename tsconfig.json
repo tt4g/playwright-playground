@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "lib": [
+      "es2020"
+    ],
+    "jsx": "preserve",
+    "charset": "utf8",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "alwaysStrict": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnusedLabels": false,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "plugins": []
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": []
+}
